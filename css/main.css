@@ -1,0 +1,48 @@
+
+html{
+	background:#AAAAAA;
+}
+form{
+	color: #FFFFFF;
+}
+#dashboard{
+	width: 100%;
+	height: 100%;
+	position:relative;
+	background: #FFFFFF;
+	background-color: #CCCCCC;
+	layer-background: #CCCCCC;
+	<!--z-index:65535;-->
+	<!--float: left;-->
+	<!--position:fixed;-->
+	<!--right:0px; top:0px;-->
+	<!--z-index:65535;-->
+}
+#container{
+	margin: 0%;
+	padding: 0%
+	<!--padding: 0.5%;-->
+	width: 100%;
+	height:100%;
+}
+#jobsgroup{
+	float: left; 
+	width:50%; 
+	height:50%; 
+	background-color:#012345; 
+	margin:1%; 
+	padding: 1%;
+}
+#groupname{
+	color: #986532; 
+	font-size: 30; 
+	font-weight:bold;
+}
+#demo{
+	color: #FFFFFF;
+	background-color:#459812; 
+}
+#demo2{
+	color: #FFFAAA;
+	background-color:#AAAFFF; 
+}

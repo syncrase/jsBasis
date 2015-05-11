@@ -1,0 +1,83 @@
+
+<html>
+
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!--
+		Additional styles
+		<style type="text/css" src="css/main.css">
+			
+		</style>-->
+
+	</head>
+
+	<body onload="onloading()">
+
+
+		
+		<script src="js/scriptsJS.js"></script>
+		
+		<div id="container">
+			<div id="dashboard">
+
+				<div id="jobsgroup">
+
+
+					<p>
+						<a id="groupname" href="http://www.w3schools.com">w3schools.com</a>
+					</p>
+					
+					<h1 onclick="changeText(this)">Click on this text!</h1>
+					
+					<button type="button" onclick="displayDate()">
+						Click me to display Date and Time.
+					</button>
+					
+					<p id="demo">
+					</p>
+					<p id="demo2">
+					</p>
+
+					<form name="formToAlterateBackgroundColor"  onsubmit="addBackgroundColor()"><!-- action="test.html" -->
+						Desired color for the background:<br>
+						<input type="text" name="backgroundColor">
+						<input type="submit" value="Submit">
+					</form>
+
+					<button type="button" onclick="addBackgroundColor()">
+						Click me to change the background-color
+					</button>
+					<br/>
+
+					Enter something, it will be uppercased: <input type="text" id="fname" onchange="myFunction()">
+
+					<br/>
+					If this text field was focused, it will change his color: <input type="text" onfocus="changeInputFieldBackgroundColor(this,'yellow')" onblur="changeInputFieldBackgroundColor(this,'#FFFFFF')">
+					<br/>
+					
+					<div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+						Mouse Over Me
+					</div>
+					<br/>
+					<div onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
+						Click Me
+					</div>
+					
+					<br/>
+					<button id="myBtn">Try it</button>
+					<br/>
+					
+					Enter a date after 2000-01-01:
+					<input type="date" name="bday" min="2000-01-02">
+					<br/>
+					<input type="button" value="Load new document" onclick="window.location.assign('http://www.w3schools.com')">
+				</div>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
